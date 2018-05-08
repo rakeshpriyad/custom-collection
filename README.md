@@ -1,5 +1,5 @@
 "# custom-collection" 
-
+Array List: 
 Method | Description
 --- | --- 
 public void add(E value) | Add objects in ArrayListCustom
