@@ -6,8 +6,11 @@ public class VectorCustom<E> {
 
 	private static final int INIT_SIZE = 10;
 	private static int size = 0;
-	private Object elements[] = new Object[INIT_SIZE];
+	private Object elements[] = {};
 
+	public VectorCustom() {
+		elements = new Object[INIT_SIZE];
+	}
 	public synchronized void add(E e) {
 		if (size == elements.length) {
 			ensureCapacity();
