@@ -1,15 +1,15 @@
-package com.test.custom.collection.hashmap;
+package com.test.collection.custom.impl.hashmap;
 
 public class CustomHashMapDemo {
 
 	public static void main(String[] args) {
 
-		HashMapCustom<Employee, Integer> hashMapCustom = new HashMapCustom<Employee, Integer>();
-		hashMapCustom.put(new Employee("10", "sam"), 12);
-		hashMapCustom.put(new Employee("21", "amy"), 121);
-		hashMapCustom.put(new Employee("31", "rob"), 151);
-		hashMapCustom.put(new Employee("41", "sam"), 15);
-		hashMapCustom.put(new Employee("42", "wil"), 89);
+		CustomHashMap<Employee, Integer> hashMapCustom = new CustomHashMap<Employee, Integer>();
+		hashMapCustom.put(new Employee("10", "XX"), 12);
+		hashMapCustom.put(new Employee("21", "YY"), 121);
+		hashMapCustom.put(new Employee("31", "RR"), 151);
+		hashMapCustom.put(new Employee("43", "RR"), 15);
+		hashMapCustom.put(new Employee("42", "TT"), 89);
 
 		System.out.println("Display values corresponding to keys>");
 		System.out.println("value corresponding to employee with id=21 & name='amy' : "
